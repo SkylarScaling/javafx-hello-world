@@ -1,5 +1,7 @@
 package com.wheezy.template;
 
+import com.sun.tools.javac.Main;
+
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.event.EventHandler;
@@ -44,5 +46,4 @@ public class HelloFX extends Application
   {
     launch(args);
   }
-
 }
