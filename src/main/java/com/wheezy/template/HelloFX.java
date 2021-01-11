@@ -1,7 +1,5 @@
 package com.wheezy.template;
 
-import com.sun.tools.javac.Main;
-
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.event.EventHandler;
@@ -22,7 +20,7 @@ public class HelloFX extends Application
       // Read file fxml and draw interface.
       Parent root = FXMLLoader.load(getClass().getResource("HelloFX.fxml"));
 
-      primaryStage.setTitle("Hell World FX!");
+      primaryStage.setTitle("Hello World FX!");
       primaryStage.setScene(new Scene(root));
       primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>()
       {
